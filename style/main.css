@@ -1,0 +1,79 @@
+﻿body {
+	background-image: url(pic/bg.png);
+    height: 100vh;
+	align-items: center;
+	justify-content: center;
+	background-attachment: cover;
+	background-size: 100%;
+	background-repeat:repeat-y;
+	
+}
+.main {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+	padding: 50px;
+  position: fixed; top: 50%; left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+	
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+input{
+    margin:10px 0;
+    padding:10px;
+}
+button{
+    padding:10px;
+    cursor:pointer;
+}
+.a{
+    height:100vh;
+	font-family:  'Trebuchet MS';
+	color: darkgreen;
+}
+.note{
+    width: 100%;
+	font-family:  'Trebuchet MS';
+	color: darkgreen;
+	font-size: 25px;
+	padding:20px;
+	background-color: #656665;
+	background: rgba(101, 102, 101, 0.30);
+	border-radius: 3px;
+	padding-right:82%;
+	margin:8px;
+}
+.log{
+    margin:10px 0;
+}
+.gid{
+position:absolute;
+width:100%;
+bottom:100px;
+left:580px;
+}
+
+
+.h2{
+font-family: 'KFT';
+	color:limegreen;	
+	text-shadow: black 2px 2px 0;;
+	text-align: center;
+	font-size: 70px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.p{
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	font-size: 20px;
+}
+@font-face { 
+   font-family: 'KFT'; 
+   src: url('font/KTFJermilov-Solid.ttf'); 
+}
