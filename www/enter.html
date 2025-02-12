@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Авторизация и регистрация</title>
+	<link rel="stylesheet" href="style/shapkastyle.css">
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+	<ul class="shapkaul">
+			<li class="shapkali"><a href="index.php" class="shapkaA"><img src="style/pic/logo.png" class="logo"></a></li>
+			<li class="shapkali"><a href="index.php" class="shapkaA">О сервере</a></li>
+			<li class="shapkali"><a href="info.php" class="shapkaA">Наши Игроки</a></li>
+			<li class="shapkali"><a href="map.php" class="shapkaA">Карта сервера</a></li>
+			<li class="shapkali"><a href="" class="shapkaA">Лента сообщений</a></li>
+			<li class="shapkali"><a href="<?php echo $lk?>" class="shapkaA">Личный кабинет</a></li>
+			<li class="shapkali"><a href="table.php" class="shapkaA">Донат</a></li>
+			<li class="shapkali"><a href="help.php" class="shapkaA">Контакты</a></li>
+		<li class="shapkali"><a href="help.php" class="shapkaT">8 (985) 945-56-38</a></li>
+		</ul><br><br>
+	
+ <form class="main" action="signin.php" method="post">
+        <label style="font-family:  'Trebuchet MS'">Логин</label>
+        <input type="text" placeholder="Введите логин" name="login">
+        <label style="font-family:  'Trebuchet MS'">Пароль</label>
+        <input type="password" placeholder="Введите пароль" name="password_confirm">
+        <button type="submit" style="font-family:'Trebuchet MS'">Войти</button>
+        <p class="log"><a class="a" href="registration.html">Зарегистрироваться</a></p>
+    </form>
+	
+</body>
+</html>

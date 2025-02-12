@@ -1,0 +1,37 @@
+﻿table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #656665;
+    color: white;
+    border: 16px solid #ECE9E0;
+    border-radius: 20px;
+    margin: auto;
+	font-family: 'Trebuchet MS';
+}
+
+th {
+    font-size: 18px;
+    padding: 10px;
+}
+
+td {
+    background: #b0e24d;
+    padding: 10px;
+}
+.choose{
+    display: flex;
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height:50px;
+    left:200px;
+    bottom:10px;
+}
+input{
+   width:200px;
+    heigth:20px;
+}
+ 

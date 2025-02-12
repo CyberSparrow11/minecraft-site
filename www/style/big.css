@@ -1,0 +1,75 @@
+.block-pic{
+	padding-bottom:200px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: row wrap;
+	
+}
+.divvv{
+	 overflow: hidden;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+	 
+}
+
+.text-a{
+	text-align: center;
+display: inline-block;
+overflow: hidden;
+position: relative;
+text-decoration: none;
+}
+
+.text-a:before {
+display: block;
+background-color: rgb(0, 0, 0);
+content: "";
+height: 100%;
+opacity: 0;
+position: absolute;
+width: 100%;
+z-index: 2;
+}
+
+.text-a:after {
+font-family: 'Garamond';
+color: white;
+content: attr(alt);
+display: block;
+font-size: 16px;
+opacity: 0;
+position: absolute;
+text-transform: none;
+top: 50%;
+-webkit-transform-origin: 50% 0%;
+transform-origin: 50% 0%;
+-webkit-transform: scale(0) translateY(-50%);
+transform: scale(0) translateY(-50%);
+z-index: 3;
+}
+
+.item-pic{
+	z-index: 1;
+	height:360;
+	width:600;
+	
+	
+}
+
+.text-a:after {
+-webkit-transition: all 350ms ease-in-out;
+transition: all 350ms ease-in-out;
+}
+
+.text-a:hover:before {
+opacity: 0.6;
+}
+
+.text-a:hover:after {
+opacity: 1;
+-webkit-transform: scale(1) translateY(-50%);
+transform: scale(1) translateY(-50%);
+}
+

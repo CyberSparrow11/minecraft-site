@@ -1,0 +1,31 @@
+﻿<!doctype html>
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Посвящение в игроки</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+	<p class="log"><a class="a" href="enter.html">Вернуться на страницу входа в личный кабинет</a></p>
+	
+    <form class="main" action="registration.php" method="post">
+        <label style="font-family:  'Trebuchet MS'">Придумайте логин</label>
+        <input type="text" name="login">
+        <label style="font-family:  'Trebuchet MS'">Придумайте пароль</label>
+        <input type="password" name="password">
+        <label style="font-family:  'Trebuchet MS'">Ваш email</label>
+        <input type="text" name="email">
+        <label style="font-family:  'Trebuchet MS'">Выберите роль</label>
+          <div>
+            <input type="radio" id="player" name="role" value="player" checked>
+            <label style="font-family:  'Trebuchet MS'">Игрок</label>
+        </div>
+
+        <div>
+            <input type="radio" id="admin" name="role" value="admin">
+            <label style="font-family:  'Trebuchet MS'">Админ</label>
+        </div>
+        <input type="submit" value="Зарегистрироваться" name="submit_btn" style="font-family:  'Trebuchet MS'"/>
+         </form>
+</body>
+</html>
